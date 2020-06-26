@@ -1,0 +1,111 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.Topbar {
+  background-color: #282c34;
+  padding: 24px 48px 12px;
+  text-align: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+}
+
+.Topbar > img {
+  width: 100px;
+}
+
+.info_header {
+  background-color: #f90;
+
+  text-align: center;
+  font-size: 0.9rem;
+
+  width: 100%;
+  position: fixed;
+  top: 70px;
+  left: 0;
+}
+
+.info_header > p {
+  color: white;
+}
+
+.MainContainer {
+  padding: 8% 12%;
+  margin-top: 60px;
+  box-sizing: border-box;
+
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.ProductPreview {
+  width: 50%;
+}
+
+.ProductPreview > img {
+  width: 100%;
+}
+
+.ProductData {
+  width: 50%;
+}
+
+.ProductTitle {
+  font-size: 48px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.ProductDescription {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.ProductImage {
+  width: 100%;
+  max-width: 80px;
+
+  border: 2px solid transparent;
+  border-radius: 8px;
+  margin-right: 12px;
+}
+
+.SelectedProductImage {
+  border: 2px solid teal;
+}
+
+.Bottombar {
+  background-color: #282c34;
+  padding: 24px 48px 12px;
+  text-align: center;
+  margin-top: 50px;
+
+  width: 100%;
+}
+
+.Bottombar > img {
+  width: 100px;
+}
+
+@media (max-width: 700px) {
+  .MainContainer {
+    display: block;
+  }
+
+  .ProductPreview {
+    width: 100%;
+  }
+
+  .ProductData {
+    width: 100%;
+  }
+}
