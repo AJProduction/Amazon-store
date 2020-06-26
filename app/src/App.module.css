@@ -2,44 +2,9 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 
   /*overflow-y: hidden;  Hide vertical scrollbar */
-  /*overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar  */
 
   width: 100%;
-}
-
-.Topbar {
-  background-color: #282c34;
-  padding: 24px 48px 12px;
-  text-align: center;
-
-  position: fixed;
-  top: 0;
-  left: 0;
-
-  width: 100%;
-  z-index: 1;
-}
-
-.Topbar > img {
-  width: 100px;
-}
-
-.info_header {
-  background-color: #f90;
-
-  text-align: center;
-  font-size: 0.9rem;
-
-  width: 100%;
-  position: fixed;
-  top: 70px;
-  left: 0;
-
-  z-index: 1;
-}
-
-.info_header > p {
-  color: white;
 }
 
 .MainContainer {
@@ -57,134 +22,8 @@ body {
   position: relative;
 }
 
-.ProductPreview > img {
-  width: 100%;
-}
-
-.TimeSection {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-  color: white;
-  font-size: 48px;
-  font-weight: 600;
-}
-
-.HeartBeatSection {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-  color: white;
-  font-size: 48px;
-  font-weight: 600;
-}
-
-.HeartBeatSection > i {
-  color: red;
-  animation: beat 1s infinite;
-}
-
-@keyframes beat {
-  0% {
-    transform: scale(1, 1);
-  }
-
-  50% {
-    transform: scale(1.2, 1.2);
-  }
-
-  100% {
-    transform: scale(1, 1);
-  }
-}
-
-.HeartBeatSection > p {
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
 .ProductData {
   width: 50%;
-}
-
-.ProductTitle {
-  font-size: 48px;
-  font-weight: 600;
-  margin-top: 0;
-  margin-bottom: 16px;
-}
-
-.ProductDescription {
-  font-size: 20px;
-  color: rgba(0, 0, 0, 0.8);
-  margin-top: 0;
-  margin-bottom: 16px;
-}
-
-.SectionHeading {
-  font-size: 28px;
-  margin-bottom: 8px;
-}
-
-.ProductImage {
-  width: 100%;
-  max-width: 80px;
-
-  border: 2px solid transparent;
-  border-radius: 8px;
-  margin-right: 12px;
-  cursor: pointer;
-}
-
-.SelectedProductImage {
-  border: 2px solid teal;
-}
-
-.Bottombar {
-  background-color: #282c34;
-  padding: 24px 0;
-  text-align: center;
-  margin-top: 50px;
-
-  width: 100%;
-}
-
-.Bottombar > img {
-  width: 100px;
-}
-
-.FeatureItem {
-  min-width: 80px;
-  background-color: gainsboro;
-  border-radius: 8px;
-  border: 0;
-  padding: 12px 24px;
-  text-align: center;
-  margin-right: 12px;
-  cursor: pointer;
-  font-weight: 600;
-  box-sizing: content-box;
-}
-
-.SelectedFeatureItem {
-  color: white;
-  background-color: grey;
-}
-
-.PrimaryButton {
-  color: white;
-  background-color: teal;
-  font-size: 20px;
-  border-radius: 8px;
-  cursor: pointer;
-  border: 0;
-  padding: 12px 24px;
-
-  margin-top: 36px;
 }
 
 @media (max-width: 700px) {

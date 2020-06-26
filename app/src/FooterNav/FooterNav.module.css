@@ -1,0 +1,12 @@
+.Bottombar {
+  background-color: #282c34;
+  padding: 24px 0;
+  text-align: center;
+  margin-top: 50px;
+
+  width: 100%;
+}
+
+.Bottombar > img {
+  width: 100px;
+}

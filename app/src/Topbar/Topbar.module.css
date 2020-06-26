@@ -1,0 +1,34 @@
+.Topbar {
+  background-color: #282c34;
+  padding: 24px 48px 12px;
+  text-align: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  z-index: 1;
+}
+
+.Topbar > img {
+  width: 100px;
+}
+
+.info_header {
+  background-color: #f90;
+
+  text-align: center;
+  font-size: 0.9rem;
+
+  width: 100%;
+  position: fixed;
+  top: 70px;
+  left: 0;
+
+  z-index: 1;
+}
+
+.info_header > p {
+  color: white;
+}
