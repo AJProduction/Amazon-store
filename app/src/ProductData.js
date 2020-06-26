@@ -1,5 +1,5 @@
 const ProductData = {
-  title: 'Apple Watch Series 3 (GPS, 38mm) - The Smartest Watch',
+  title: 'Apple Watch Series 3 - The Smartest Watch',
   description:
     'The Apple Watch Series 3 has Retina display, GPS, Swimproof, Optical heart sensor, Stores music, Emergency SOS, S3 chip with dual-core processor and the App Store on your wrist',
   colorOptions: [
